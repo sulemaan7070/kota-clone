@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#service {
+  background-image: url(./assets/other/gradient-bg-services.webp);
+}
+
+.work-li {
+  @apply mx-2 text-base lg:mx-3 lg:text-lg cursor-pointer;
+}
+
+::-webkit-scrollbar {
+  @apply w-3 bg-gray-300;
+}
+::-webkit-scrollbar-thumb {
+  @apply rounded-lg bg-pink-600 /*color trackbar*/;
+}
+
+.social-icon {
+  color: white;
+  margin-right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
