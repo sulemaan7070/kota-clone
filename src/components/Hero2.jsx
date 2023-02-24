@@ -5,7 +5,7 @@ function Hero2() {
     document.getElementById("vid").play();
   }, []);
   return (
-    <section>
+    <section className="">
       <div className="lg:flex">
         <div className="lg:w-[50%]">
           <img className="lg:hidden" src={introImg} alt="" />
@@ -32,11 +32,6 @@ function Hero2() {
           </p>
         </div>
       </div>
-      <h3 className="text-2xl  text-black/75 md:text-3xl lg:text-5xl font-bold lg:w-[70%] lg:mx-auto my-10 mx-4 lg:my-[15rem]">
-        Our creative digital agency designs and develops bespoke websites with{" "}
-        <br />
-        <span className="text-pink-600">three things in mind;</span>
-      </h3>
     </section>
   );
 }
